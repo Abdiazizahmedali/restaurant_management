@@ -1,0 +1,56 @@
+{
+  "name": "restaurant_management",
+  "title": "Restaurant Management",
+  "version": "1.0.0",
+  "description": "Complete Restaurant Management System for ERPNext",
+  "publisher": "Your Company",
+  "email": "info@yourcompany.com",
+  "license": "MIT",
+  "app_icon": "octicon octicon-file-directory",
+  "app_color": "grey",
+  "module": "Restaurant Management",
+  "app_include_js": [],
+  "app_include_css": [
+    "/assets/restaurant_management/css/restaurant_management.css"
+  ],
+  "web_include_js": [],
+  "web_include_css": [],
+  "doctype_js": {
+    "Restaurant Order": "public/js/restaurant_order.js",
+    "Restaurant Table": "public/js/restaurant_table.js"
+  },
+  "doctype_list_js": {},
+  "doctype_tree_js": {},
+  "doctype_calendar_js": {},
+  "page_js": {},
+  "website_generators": [],
+  "home_page": "",
+  "role_home_page": {},
+  "notification_config": "",
+  "permission_query_conditions": {},
+  "has_permission": {},
+  "override_doctype_class": {},
+  "doc_events": {},
+  "scheduler_events": {},
+  "before_tests": "",
+  "override_whitelisted_methods": {},
+  "override_doctype_dashboards": {},
+  "auto_cancel_exempted_doctypes": [],
+  "user_data_fields": [],
+  "auth_hooks": [],
+  "fixtures": [
+    {
+      "doctype": "Custom Field",
+      "filters": [
+        [
+          "name",
+          "in",
+          [
+            "Item-is_restaurant_item",
+            "Item-restaurant_category"
+          ]
+        ]
+      ]
+    }
+  ]
+}

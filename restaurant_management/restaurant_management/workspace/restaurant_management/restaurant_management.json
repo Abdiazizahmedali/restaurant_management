@@ -1,0 +1,127 @@
+{
+ "charts": [
+  {
+   "chart_name": "Daily Sales",
+   "label": "Daily Sales"
+  },
+  {
+   "chart_name": "Order Status",
+   "label": "Order Status"
+  }
+ ],
+ "content": "[{\"id\":\"_tJFuFOyxL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Restaurant Management</span>\",\"col\":12}},{\"id\":\"_F8meFOyxL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Order\",\"col\":3}},{\"id\":\"_G8meFOyxL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Table\",\"col\":3}},{\"id\":\"_H8meFOyxL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Menu Category\",\"col\":3}},{\"id\":\"_I8meFOyxL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"_J8meFOyxL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_K8meFOyxL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\">Reports & Analytics</span>\",\"col\":12}},{\"id\":\"_L8meFOyxL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Daily Sales\",\"col\":6}},{\"id\":\"_M8meFOyxL\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Order Status\",\"col\":6}}]",
+ "creation": "2024-01-15 10:30:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "restaurant",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Restaurant Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Orders",
+   "link_name": "Restaurant Order",
+   "link_to": "Restaurant Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tables",
+   "link_name": "Restaurant Table",
+   "link_to": "Restaurant Table",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Menu Categories",
+   "link_name": "Menu Category",
+   "link_to": "Menu Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Menu Items",
+   "link_name": "Item",
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Daily Sales Report",
+   "link_name": "Daily Sales Report",
+   "link_to": "Daily Sales Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Table Occupancy Report",
+   "link_name": "Table Occupancy Report",
+   "link_to": "Table Occupancy Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-15 10:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "Restaurant Management",
+ "name": "Restaurant Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Restaurant Order",
+   "link_to": "Restaurant Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Restaurant Table",
+   "link_to": "Restaurant Table",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Menu Category",
+   "link_to": "Menu Category",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Item",
+   "link_to": "Item",
+   "type": "DocType"
+  }
+ ],
+ "title": "Restaurant Management"
+}
